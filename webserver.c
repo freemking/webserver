@@ -13,8 +13,6 @@
 #include <time.h>
 
 #include "webserver.h"
-
-
 time_t server_started;
 int    server_bytes_sent,sin_size,server_requests;
 struct sockaddr_in remote_addr;
