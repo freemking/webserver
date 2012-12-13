@@ -1,4 +1,4 @@
-webserver
-=========
+Project:webserver
 
-webserver
+Complie:gcc webserver.c -o webserver -lpthread
+
