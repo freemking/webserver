@@ -144,8 +144,6 @@ void analyze_request(char *request,int fd){
 	}else{
 		do_cat(p,fd);
 	}
-
-	printf("------------------------\n");
 }
 
 
