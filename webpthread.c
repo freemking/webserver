@@ -12,7 +12,7 @@
 #include <dirent.h>
 #include <time.h>
 
-#include "webserver.h"
+#include "webpthread.h"
 time_t server_started;
 int    server_bytes_sent,sin_size,server_requests;
 struct sockaddr_in remote_addr;
@@ -123,6 +123,7 @@ process_rq(char *rq,int fd)
 		do_404(arg,fd);
 	}
 	else if(isadir(arg)){
+		printf("---%s---\n",arg);
 		do_ls(arg,fd);
 	}
 	else{

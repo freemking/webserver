@@ -1,6 +1,6 @@
-#ifndef _WEBSERVER_
+#ifndef _WEBPTHREAD_
 
-#define _WEBSERVER_
+#define _WEBPTHREAD_
 
 #define HOSTLEN 256
 #define BACKLOG 10
